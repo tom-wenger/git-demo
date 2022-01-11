@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 100px;
+  height: 100vh;
+  font-family: sans-serif;
+  background-color: #05052b;
+}
+
+h1 {
+  color: #ffd413;
+  margin-bottom: 40px;
+}
+
+section {
+  border: 1px solid rgba(255, 199, 15, 0.404);
+  padding: 2rem;
+  border-radius: 20px;
+  min-width: 500px;
+  background-color: rgba(250, 204, 0, 0.05);
+}
+
+.field-wrapper {
+  display: block;
+  margin-bottom: 25px;
+}
+
+label,
+input {
+  /* In order to define widths */
+  display: inline-block;
+}
+
+label {
+  color: #7a7a7a;
+  width: 100px;
+  text-align: right;
+}
+
+input[type="text"] {
+  margin-left: 10px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #cecece;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+input:focus,
+input:hover {
+  background-color: rgba(255, 255, 255, 0.336);
+}
+/*# sourceMappingURL=style.css.map */
